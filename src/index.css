@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  background: transparent;
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+a img {
+  border: none;
+}
+
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+button,
+textarea,
+select {
+  appearance: none !important;
+  border-radius: 0;
+}
+
+/*CSS RESET OVER*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Overpass:wght@400;700&display=swap');
+
+:root{
+  --primary-color: #f8f7f3;
+  --secondary-color: #1a24fb;
+}
+
+body {
+  font-family: 'Overpass', sans-serif;
+  background-color: var(--primary-color);
+}
+
+.main-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.books-container{
+  max-width: 1280px;
+  
+}
