@@ -1,7 +1,7 @@
 {
   "name": "w18-exam-uibuild",
   "version": "0.1.0",
-  "homepage": "https://gergelykisshun.github.io",
+  "homepage": "https://gergelykisshun.github.io/w18-exam-uibuild",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
