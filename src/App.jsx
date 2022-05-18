@@ -69,7 +69,7 @@ const App = () => {
       <Header/>
       <main className='main-container'>
         <div className='books-container'>
-          {books.cards.map(book => <Book info={book}/>)}
+          {books.cards.map((book, i) => <Book key={i} info={book} num={i}/>)}
         </div>
       </main>
     </>

@@ -1,15 +1,16 @@
 import React from 'react';
 import './Book.css';
 
-const Book = ({info}) => {
+const Book = ({info, num}) => {
 
   const {title, sub, text} = info
 
   return (
     <div className='book-card'>
-      <h3>{sub}</h3>
-      <h2>{title}</h2>
-      <p>{text}</p>
+      <p className='card-number'>{num + 1}</p>
+      <h3 className='book-author'>{sub}</h3>
+      <h2 className='book-title'>{title}</h2>
+      <p className='book-desc'>{text}</p>
 
     </div>
   )

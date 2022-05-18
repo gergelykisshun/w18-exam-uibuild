@@ -1,3 +1,40 @@
-.book-card{
+.book-card {
+  position: relative;
   padding: 40px;
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.card-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 3px;
+  right: 6px;
+  height: 40;
+  width: 40;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.book-author,
+.book-title {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.book-title {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.book-author {
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  font-weight: 400;
+}
+
+.book-desc {
+  font-size: 16px;
+  font-weight: 400;
 }
