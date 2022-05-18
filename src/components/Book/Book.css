@@ -6,6 +6,9 @@
 }
 
 .book-card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
   position: relative;
   padding: 40px;
   border: 1px solid var(--secondary-color);
@@ -42,14 +45,25 @@
 
 .book-desc {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .read-more-btn {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-inline: 5px;
+  padding: 5px;
+  height: 18px;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.read-more-btn .read-btn-text {
+  font-size: 14px;
+}
+
+.read-more-btn .read-more-arrow {
+  font-size: 18px;
 }
 
 .read-more-btn:hover {

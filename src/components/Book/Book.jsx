@@ -15,7 +15,7 @@ const Book = ({info, num}) => {
         <p className='book-desc'>{text}</p>
       </div>
       <button className='read-more-btn'>
-        <p>read more</p>
+        <p className='read-btn-text'>read more</p>
         <ArrowForwardIcon className="read-more-arrow"/>
       </button>
     </div>
